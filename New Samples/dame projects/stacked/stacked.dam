@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+  <version>2.9.0</version>
+  <bgColor>0x000000</bgColor>
+  <viewPos x="527" y="-17"/>
+  <firstLayersTop>true</firstLayersTop>
+  <spriteEntries currentId="2">
+    <sprite name="" idx="1" className="Player" image="../../data/Character Boy.png" width="101" height="171" preview="0" anchorX="50" anchorY="135" boundsX="0" boundsY="0" boundsWidth="101" boundsHeight="171" constructor="" creation="" exports="true" canScale="true" canRotate="true" surfaceObject="false" tileIndex="-1" selected="true"/>
+  </spriteEntries>
+  <layers>
+    <group name="Area1" id="0" xScroll="1" yScroll="1" visible="true" open="true" locked="false" exports="true">
+      <spritelayer name="sprites" id="0" xScroll="1" yScroll="1" visible="true" locked="false" exports="true" aligned="false" sort="false" selected="true">
+        <sprite guid="0CEDC6D4-F000-D4B6-9565-F92DE8D82188" x="-242" y="793" Z="0" angle="0" scaleX="1" scaleY="1" flipped="false" idx="1"/>
+      </spritelayer>
+      <maplayer name="Map1" id="1" xScroll="1" yScroll="1" x="-888" y="0" width="30" height="30" tileset="../../data/2halfDTiles.png" tileWidth="60" tileHeight="100" visible="true" hasHits="false" drawIdx="1" collideIdx="1" eraseIdx="0" locked="false" exports="true" tileSpacingX="60" tileSpacingY="50" xStagger="0" tileOffsetX="0" tileOffsetY="0" isMaster="false" mapType="2d" hasHeight="true" repeatX="false" repeatY="false">
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2,2,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2,2,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,2,2</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,9,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,18,18,18,18,18,18,18,18,18,18,18,18,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,18,18,18,18,18,18,18,18,18,18,18,18,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,18,18,18,18,18,18,18,18,18,18,18,18,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,18,18,18,18,18,18,18,18,18,18,18,18,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,18,18,18,18,18,18,18,18,18,18,18,18,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <row>4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4</row>
+        <stacks height="22">
+          <stack id="0">1:4,2:24</stack>
+          <stack id="1">1:4,2:24</stack>
+          <stack id="2">1:4,2:24</stack>
+          <stack id="3">1:4,2:25</stack>
+          <stack id="4">1:4,2:25</stack>
+          <stack id="5">1:4</stack>
+          <stack id="6">1:4</stack>
+          <stack id="7">1:4</stack>
+          <stack id="8">1:4</stack>
+          <stack id="9">1:4</stack>
+          <stack id="10">1:4</stack>
+          <stack id="11">1:4</stack>
+          <stack id="12">1:4</stack>
+          <stack id="13">1:4</stack>
+          <stack id="782">1:25</stack>
+          <stack id="519">1:23</stack>
+          <stack id="780">1:25</stack>
+          <stack id="525">1:23</stack>
+          <stack id="534">1:24</stack>
+          <stack id="24">1:2</stack>
+          <stack id="25">1:2</stack>
+          <stack id="26">1:2</stack>
+          <stack id="27">1:4</stack>
+          <stack id="28">1:4</stack>
+          <stack id="29">1:4</stack>
+          <stack id="30">1:4,2:25</stack>
+          <stack id="31">1:4,2:25</stack>
+          <stack id="32">1:4,2:25</stack>
+          <stack id="33">1:4,2:25</stack>
+          <stack id="34">1:4</stack>
+          <stack id="35">1:4</stack>
+          <stack id="36">1:4</stack>
+          <stack id="37">1:4</stack>
+          <stack id="38">1:4</stack>
+          <stack id="39">1:4</stack>
+          <stack id="40">1:4</stack>
+          <stack id="41">1:4</stack>
+          <stack id="781">1:25</stack>
+          <stack id="56">1:2</stack>
+          <stack id="57">1:2</stack>
+          <stack id="58">1:4</stack>
+          <stack id="59">1:4</stack>
+          <stack id="60">1:4,2:25</stack>
+          <stack id="61">1:4,2:25</stack>
+          <stack id="62">1:4,2:25</stack>
+          <stack id="63">1:4</stack>
+          <stack id="64">1:4</stack>
+          <stack id="65">1:4</stack>
+          <stack id="66">1:4</stack>
+          <stack id="67">1:4</stack>
+          <stack id="68">1:4</stack>
+          <stack id="69">1:4</stack>
+          <stack id="327">1:24</stack>
+          <stack id="340">1:24</stack>
+          <stack id="86">1:2</stack>
+          <stack id="87">1:2</stack>
+          <stack id="88">1:2</stack>
+          <stack id="89">1:2</stack>
+          <stack id="90">1:4</stack>
+          <stack id="91">1:4</stack>
+          <stack id="92">1:4</stack>
+          <stack id="93">1:4</stack>
+          <stack id="94">1:4</stack>
+          <stack id="95">1:4</stack>
+          <stack id="96">1:4</stack>
+          <stack id="97">1:4</stack>
+          <stack id="98">1:4</stack>
+          <stack id="99">1:4</stack>
+          <stack id="356">1:24</stack>
+          <stack id="357">1:24</stack>
+          <stack id="347">1:23</stack>
+          <stack id="626">1:7</stack>
+          <stack id="116">1:2</stack>
+          <stack id="117">1:2</stack>
+          <stack id="118">1:2</stack>
+          <stack id="119">1:2</stack>
+          <stack id="120">1:4</stack>
+          <stack id="121">1:4</stack>
+          <stack id="122">1:4</stack>
+          <stack id="123">1:4</stack>
+          <stack id="124">1:4</stack>
+          <stack id="125">1:4</stack>
+          <stack id="126">1:4</stack>
+          <stack id="127">1:4</stack>
+          <stack id="386">1:24</stack>
+          <stack id="387">1:24</stack>
+          <stack id="395">1:26</stack>
+          <stack id="652">1:9</stack>
+          <stack id="653">1:9</stack>
+          <stack id="654">1:9</stack>
+          <stack id="399">5:15</stack>
+          <stack id="400">5:17</stack>
+          <stack id="401">5:17</stack>
+          <stack id="402">5:17</stack>
+          <stack id="403">5:17</stack>
+          <stack id="404">5:17</stack>
+          <stack id="405">5:17</stack>
+          <stack id="406">5:17</stack>
+          <stack id="407">5:17</stack>
+          <stack id="408">5:11</stack>
+          <stack id="153">1:4</stack>
+          <stack id="154">1:4</stack>
+          <stack id="659">1:9</stack>
+          <stack id="660">1:25</stack>
+          <stack id="149">1:2</stack>
+          <stack id="150">1:4</stack>
+          <stack id="151">1:4</stack>
+          <stack id="152">1:4</stack>
+          <stack id="417">1:24</stack>
+          <stack id="418">1:24</stack>
+          <stack id="658">1:9</stack>
+          <stack id="681">1:8</stack>
+          <stack id="665">1:23</stack>
+          <stack id="683">1:9</stack>
+          <stack id="684">1:9</stack>
+          <stack id="429">5:16</stack>
+          <stack id="430">5:13</stack>
+          <stack id="431">5:13</stack>
+          <stack id="432">5:13</stack>
+          <stack id="433">5:13</stack>
+          <stack id="434">5:13</stack>
+          <stack id="435">5:13</stack>
+          <stack id="436">5:13</stack>
+          <stack id="437">5:13</stack>
+          <stack id="438">5:10</stack>
+          <stack id="687">1:9</stack>
+          <stack id="688">1:9</stack>
+          <stack id="689">1:9</stack>
+          <stack id="690">1:25</stack>
+          <stack id="691">1:25</stack>
+          <stack id="180">1:24</stack>
+          <stack id="685">1:9</stack>
+          <stack id="686">1:9</stack>
+          <stack id="655">1:9</stack>
+          <stack id="656">1:9</stack>
+          <stack id="657">1:9</stack>
+          <stack id="682">1:9</stack>
+          <stack id="712">1:9</stack>
+          <stack id="713">1:9</stack>
+          <stack id="714">1:9</stack>
+          <stack id="459">5:16</stack>
+          <stack id="460">5:13</stack>
+          <stack id="461">5:13</stack>
+          <stack id="462">5:13</stack>
+          <stack id="463">5:13</stack>
+          <stack id="464">5:13</stack>
+          <stack id="465">5:13</stack>
+          <stack id="466">5:13</stack>
+          <stack id="467">5:13</stack>
+          <stack id="468">5:10</stack>
+          <stack id="717">1:9</stack>
+          <stack id="718">1:9</stack>
+          <stack id="719">1:9</stack>
+          <stack id="720">1:24</stack>
+          <stack id="721">1:25</stack>
+          <stack id="715">1:9</stack>
+          <stack id="716">1:9</stack>
+          <stack id="489">1:19,2:19,3:19,4:19,5:14</stack>
+          <stack id="490">1:19,2:19,3:19,4:19,5:13</stack>
+          <stack id="491">1:20,3:19,4:19,5:13</stack>
+          <stack id="492">1:19,2:19,3:19,4:19,5:13</stack>
+          <stack id="493">1:19,2:20,4:19,5:13</stack>
+          <stack id="494">1:19,2:19,3:19,4:19,5:13</stack>
+          <stack id="495">1:19,2:19,3:19,4:19,5:13</stack>
+          <stack id="496">1:19,2:20,4:19,5:13</stack>
+          <stack id="497">1:19,2:19,3:19,4:19,5:13</stack>
+          <stack id="498">1:19,2:19,3:19,4:19,5:12</stack>
+          <stack id="750">1:24</stack>
+          <stack id="751">1:25</stack>
+          <stack id="752">1:25</stack>
+          <stack id="746">1:5</stack>
+        </stacks>
+      </maplayer>
+    </group>
+  </layers>
+  <tileMatrix currentMatrix="0" rows="3" cols="3" randomizeMiddle="true" ignoreClear="false" ignoreMapEdges="true" allowSpecialTiles="false" tileset="">
+    <row>
+      <tile>0</tile>
+      <tile>0</tile>
+      <tile>0</tile>
+    </row>
+    <row>
+      <tile>0</tile>
+      <tile>0</tile>
+      <tile>0</tile>
+    </row>
+    <row>
+      <tile>0</tile>
+      <tile>0</tile>
+      <tile>0</tile>
+    </row>
+    <specialConnections>
+      <sets>
+        <connections name="Single Inside Corners">
+          <entry green="0x1111111" red="0x10000000"/>
+          <entry green="0x11011111" red="0x100000"/>
+          <entry green="0x11111110" red="0x1"/>
+          <entry green="0x11111011" red="0x100"/>
+        </connections>
+        <connections name="Double Inside Corners">
+          <entry green="0x1011111" red="0x10100000"/>
+          <entry green="0x11011110" red="0x100001"/>
+          <entry green="0x11111010" red="0x101"/>
+          <entry green="0x1111011" red="0x10000100"/>
+        </connections>
+        <connections name="Triple Inside Corners">
+          <entry green="0x1011011" red="0x10100100"/>
+          <entry green="0x1011110" red="0x10100001"/>
+          <entry green="0x11011010" red="0x100101"/>
+          <entry green="0x1111010" red="0x10000101"/>
+        </connections>
+        <connections name="Quad Inside Corners">
+          <entry green="0x1011010" red="0x10100101"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+        <connections name="Double Outside Corners">
+          <entry green="0x10" red="0x1011000"/>
+          <entry green="0x1000" red="0x1010010"/>
+          <entry green="0x1000000" red="0x11010"/>
+          <entry green="0x10000" red="0x1001010"/>
+        </connections>
+        <connections name="Double Outside Edges">
+          <entry green="0x1000010" red="0x11000"/>
+          <entry green="0x11000" red="0x1000010"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+        <connections name="Opposing Double Inside Corners">
+          <entry green="0x1111110" red="0x10000001"/>
+          <entry green="0x11011011" red="0x100100"/>
+          <entry green="0x0" red="0x0"/>
+          <entry green="0x0" red="0x0"/>
+        </connections>
+      </sets>
+      <rows>
+        <row set="0">
+          <tiles>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+          </tiles>
+        </row>
+        <row set="0">
+          <tiles>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+            <id>0</id>
+          </tiles>
+        </row>
+      </rows>
+    </specialConnections>
+  </tileMatrix>
+  <tileMatrixData name="matrix1" rows="3" cols="3" randomizeMiddle="true" ignoreClear="false" ignoreMapEdges="true" allowSpecialTiles="false" tileset="">
+    <tiles>0,0,0,0,0,0,0,0,0</tiles>
+    <connections set="0">
+      <tiles>0,0,0,0</tiles>
+    </connections>
+    <connections set="0">
+      <tiles>0,0,0,0</tiles>
+    </connections>
+  </tileMatrixData>
+  <tileBrushes/>
+  <colorSwatches/>
+  <bookmarks>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+    <bookmark enabled="false"/>
+  </bookmarks>
+  <colourGrid>
+    <colour>0xfecbcb</colour>
+    <colour>0x9c9c9c</colour>
+    <colour>0xffffff</colour>
+    <colour>0xbe2532</colour>
+    <colour>0xe06e8a</colour>
+    <colour>0x483b2a</colour>
+    <colour>0xa36323</colour>
+    <colour>0xeb8833</colour>
+    <colour>0xf6e16d</colour>
+    <colour>0x2e474d</colour>
+    <colour>0x42881e</colour>
+    <colour>0xa2cd2e</colour>
+    <colour>0x1a2531</colour>
+    <colour>0x025683</colour>
+    <colour>0x33a2f1</colour>
+    <colour>0xfffa00</colour>
+  </colourGrid>
+  <exporter name="C:\program files (x86)\DAME\lua\Exporters\csvTilemap.lua" spritepos="Top Left" rotatedSpritePos="false" relativePaths="true" useProjectExporterOnly="true">
+    <setting name="ExportOnlyCSV">false</setting>
+    <setting name="Imports"/>
+    <setting name="TileMapClass">FlxTilemapIso</setting>
+    <setting name="FlixelPackage">org.flixel</setting>
+    <setting name="GamePackage">com.Isometric</setting>
+    <setting name="MainLayer">Map1</setting>
+    <setting name="LevelName">Iso</setting>
+    <setting name="BaseClass">BaseLevel</setting>
+    <setting name="FlixelVersion">2.5</setting>
+    <setting name="CSVDir">data</setting>
+    <setting name="AS3Dir">src/com/Isometric</setting>
+    <setting name="FileExt">csv</setting>
+    <setting name="IntermediateClass">LevelData</setting>
+    <setting name="BaseClassExtends">FlxGroup</setting>
+    <setting name="DataDir">D:\_WORK\Truth Specs - SME00652\development\game 1\assets\xml</setting>
+    <setting name="MakeIndex">true</setting>
+    <setting name="UseGroups">true</setting>
+    <setting name="BaseDir"/>
+  </exporter>
+  <projectExporter name="D:\Programming\Flash\DAME Samples\dame projects\stacked\stacked.lua" spritepos="Top Left" rotatedSpritePos="false" relativePaths="true" useProjectExporterOnly="true">
+    <setting name="ExportOnlyCSV">false</setting>
+    <setting name="Imports">import com.Objects.*import com.*</setting>
+    <setting name="FlixelPackage">org.flixel</setting>
+    <setting name="GamePackage">com.Stacked</setting>
+    <setting name="MainLayer">Map1</setting>
+    <setting name="LevelName">Stack</setting>
+    <setting name="CSVDir">../../data/stacked</setting>
+    <setting name="AS3Dir">../../src/com/Stacked</setting>
+  </projectExporter>
+  <customPropertyTypes>
+    <type name="Groups" isString="true" exportedType="String" pattern="Level_%groupname%" filter="0x20">
+      <item label="Level_Area1" exported="" id="0"/>
+    </type>
+    <type name="moveDir" isString="true" exportedType="String">
+      <item label="UP" exported=""/>
+      <item label="DOWN" exported=""/>
+      <item label="LEFT" exported=""/>
+      <item label="RIGHT" exported=""/>
+    </type>
+    <type name="ID" isString="true" exportedType="String">
+      <item label="None" exported=""/>
+      <item label="Whiskers" exported=""/>
+      <item label="Tibbles" exported=""/>
+    </type>
+  </customPropertyTypes>
+  <guides>
+    <snap>true</snap>
+    <visible>false</visible>
+    <x>0</x>
+    <y>0</y>
+    <xspace>32</xspace>
+    <yspace>32</yspace>
+    <gridcolour>0x77ff0000</gridcolour>
+    <snaptype>Anchor</snaptype>
+    <paintcontinuous>false</paintcontinuous>
+    <showgameregion>false</showgameregion>
+    <gameregionwidth>640</gameregionwidth>
+    <gameregionheight>480</gameregionheight>
+    <gameregionopacity>0.5</gameregionopacity>
+    <gameregioncentered>true</gameregioncentered>
+    <minGridSpace>16</minGridSpace>
+    <showregiongrid>true</showregiongrid>
+    <regiongridx>0</regiongridx>
+    <regiongridy>0</regiongridy>
+    <regiongridcolour>0xccffcc33</regiongridcolour>
+  </guides>
+</project>
